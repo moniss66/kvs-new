@@ -1,0 +1,107 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.product-img{
+  width: 100% !important;
+}
+
+.product-img img{
+  width: 100%;
+  object-fit: cover;
+}
+
+.nav-links,.footer-links{
+  color:#B99956;
+}
+
+.shop-name{
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.head{
+  color: #e5a418;
+}
+
+.add-button{
+  background-color: #e6ad34 !important;
+}
+
+.form{
+  min-height: 80vh;
+  justify-content: center;  
+  align-items: center;
+  
+}
+
+form{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 25px !important;
+  border-radius: 10px;
+}
+
+.img-box{
+  width: 100%;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 600px) {
+  .about-img{
+    display: none;
+  }
+
+  .kvs-logo{
+    width: 300px;
+  }
+
+}
+.nav-links a{
+  width: 150px !important ;
+}
+
+.nav-links a img{
+  width: 100% !important;
+}
+.color{
+  color: #B99956;
+}
